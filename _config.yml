@@ -8,12 +8,12 @@
 # Site Settings
 locale                   : "en"
 title                    : "Information Insight"
-title_separator          : "&middot"
+title_separator          : "|"
 name                     : &name "Astroray"
 description              : "The storage of various IT technology informations."
 url                      : https://astroray073.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "astroray073/astroray073.github.io"
+repository               : astroray073/astroray073.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -48,7 +48,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
+google_site_verification : "googled6eb1103641cc663"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -78,18 +78,18 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
+  avatar           : "/assets/images/bio-photo.png"
+  bio              : "I am an developer mainly interesting in game devolopment."
+  location         : "Korea"
+  email            : korea073@gmail.com
+  uri              : https://astroray073.github.io
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : astroray073
   google_plus      :
   keybase          :
   instagram        :
@@ -163,6 +163,11 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+  ocw:
+    output: true
+    permalink: /:collection/:path/
 
 # Sass/SCSS
 sass:
@@ -174,7 +179,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: 
 
 
 # Plugins
@@ -244,3 +249,22 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _ocw-6.0001
+  - scope:
+      path: ""
+      type: ocw
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "ocw"
