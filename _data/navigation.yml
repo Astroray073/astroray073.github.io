@@ -1,12 +1,21 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Collections"
+    url: /collection-archive/
+  - title: "OCW 6.0001"
+    url: /ocw/About/
+
+# OCW 6.0001
+ocw:
+  - title: "Introduction to computer science and programming in python"
+    children:
+      - title: "About this course"
+        url: /ocw/About/
+      - title: "Test"
+        url: /ocw/L1/
+  - title: "Lectures"
+    children:
+      - title: "[L1] What is computation?"
+        url: /ocw/L1/
