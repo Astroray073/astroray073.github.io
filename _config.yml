@@ -79,7 +79,7 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/bio-photo.png"
-  bio              : "I am an developer mainly interesting in game devolopment."
+  bio              : "주로 게임 개발에 관심이 많은 개발자입니다."
   location         : "Korea"
   email            : korea073@gmail.com
   uri              : https://astroray073.github.io
