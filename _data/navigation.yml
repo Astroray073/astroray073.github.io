@@ -2,20 +2,26 @@
 main:
   - title: "Posts"
     url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "OCW 6.0001"
-    url: /ocw/About/
+  - title: "OCW"
+    url: /ocw/
+  - title: "Tags"
+    url: /tags/
+
+# Jekyll posts
+jekyll:
+  - title: "Jekyll 튜토리얼"
+    children:
+      - title: "Jekyll 블로그 만들기 (Windows)"
+        url: /Jekyll/2017-05-11-How-to-create-jekyll-blog/
 
 # OCW 6.0001
-ocw:
+ocw_6_0001:
   - title: "Introduction to computer science and programming in python"
     children:
       - title: "About this course"
-        url: /ocw/About/
-      - title: "Test"
-        url: /ocw/L1/
+        url: /ocw/6_0001/About-this-course/
   - title: "Lectures"
     children:
       - title: "[L1] What is computation?"
-        url: /ocw/L1/
+        url: /ocw/6_0001/What-is-computation/
+  - title: "Problem sets"
