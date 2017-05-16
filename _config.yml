@@ -263,5 +263,5 @@ defaults:
       layout: single
       read_time: false
       author_profile: false
-      share: true
-      comments: true
+      share: false
+      comments: false
