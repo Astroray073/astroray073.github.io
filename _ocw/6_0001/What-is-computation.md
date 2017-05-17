@@ -1,7 +1,7 @@
 ---
 title: "What is Computation?"
-excerpt: "프로그래머에게 컴퓨터란 계산을 도와주는 도구이다. 컴퓨터는 1초에 엄청난 양의 계산을 수행할 수 있고, 정말 많은 것을 기억해낼 수 있다. 분명 이것이 우리가 컴퓨터를 활용하는 이유이다."
-last_modified_at: 2017-05-15
+excerpt: "The computer is a machine to help people to calculate something. A Computer can calculate and memorize a lot of things beyond the human ability."
+last_modified_at: 2017-05-17 08:25:20
 mathjax: true
 sidebar:
  nav: "ocw_6_0001"

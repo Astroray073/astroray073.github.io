@@ -14,7 +14,7 @@ jekyll:
       - title: "Jekyll 블로그 만들기 (Windows)"
         url: /Jekyll/2017-05-11-How-to-create-jekyll-blog/
 
-# OCW 6.0001
+# MIT OCW 6.0001
 ocw_6_0001:
   - title: "Introduction to computer science and programming in python"
     children:
@@ -24,4 +24,16 @@ ocw_6_0001:
     children:
       - title: "[L1] What is computation?"
         url: /ocw/6_0001/What-is-computation/
+  - title: "Problem sets"
+
+# MIT OCW 6.042J
+ocw_6_042J:
+  - title: "Mathematics for Computer Science"
+    children:
+      - title: "About this course"
+        url: /ocw/6_042J/About-this-course/
+  - title: "UNIT 1: PROOFS"
+    children:
+      - title: "1.1 Intro to Proofs"
+        url: /ocw/6_042J/Intro-to-proofs/
   - title: "Problem sets"
