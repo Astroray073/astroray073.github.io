@@ -22,7 +22,7 @@ header:
 `Discrete` means having unpredictable gaps along values rather than continuous.
 
 {: .notice--info}
-Following contents are from the reading material.
+**Note:** Following contents are from the reading material.
 
 ## 1. Propositions
 

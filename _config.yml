@@ -234,7 +234,10 @@ collections:
   ocw:
     output: true
     permalink: /ocw/:path/
-
+  csharp:
+    output: true
+    permalink: /csharp/:path/
+    
 # Defaults
 defaults:
   # _posts
@@ -265,3 +268,14 @@ defaults:
       author_profile: false
       share: false
       comments: false
+  # _csharp
+  - scope:
+      path: ""
+      type: "csharp"
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      comments: true
+      sidebar:
+        nav: "csharp"

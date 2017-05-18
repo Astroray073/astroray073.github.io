@@ -4,6 +4,8 @@ main:
     url: /year-archive/
   - title: "OCW"
     url: /ocw/
+  - title: "C#"
+    url: /csharp/01-Introduction/
   - title: "Tags"
     url: /tags/
 
@@ -13,6 +15,15 @@ jekyll:
     children:
       - title: "Jekyll 블로그 만들기 (Windows)"
         url: /Jekyll/2017-05-11-How-to-create-jekyll-blog/
+
+# C# posts
+csharp:
+  - title: "C# 초급"
+    children:
+      - title: "프로그래밍 개요"
+        url: /csharp/01-Introduction/
+      - title: "필드(Field)"
+        url: /csharp/02-Field/
 
 # MIT OCW 6.0001
 ocw_6_0001:
