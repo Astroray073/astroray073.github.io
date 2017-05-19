@@ -54,7 +54,6 @@ The important thing is
 
 The equation $a^4 + b^4 + c^4 \neq d^4$ has no solution where a, b, c, d are positive intergers.
 
-
 In logical notation,
 
 $$
