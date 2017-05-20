@@ -5,11 +5,9 @@ last_modified_at: 2017-05-17 08:25:20
 mathjax: true
 sidebar:
  nav: "ocw_6_042J"
-header:
- video:
-  id: wIq4CssPoO0
-  provider: youtube
 ---
+
+{% include video id="wIq4CssPoO0" provider="youtube" %}
 
 ## Lecture Materials
 

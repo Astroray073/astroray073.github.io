@@ -3,10 +3,7 @@ layout: single
 title: "ArchLinux 설치"
 excerpt: "ArchLinux 배포판을 가상머신 도구인 VMware를 사용하여 설치하는 법에 대해서 알아봅니다."
 last_modifieat_at: 2017-05-20 08:58:18
-header:
- video:
-  id: m28veKzJcQ4
-  provider: youtube
+
 tags:
  - Linux
 ---
@@ -19,23 +16,33 @@ tags:
 ## 사전 준비
 
 -	가상 데스크톱 환경을 구성하기위해 [VMware workstation player](http://www.vmware.com/products/player/playerpro-evaluation.html)를 설치합니다.
-
 -	[ArchLinux Download](https://www.archlinux.org/download/)에서 iso 미디어 파일을 받아 놓습니다.
 
 ## 가상 머신 설정
 
-![Step-01]({{ site.imgurl }}ArchLinux/Installation/create-vm-01.png){: .align-center }
+-	OS 이미지파일을 등록하고 다음을 누른다.
 
-![Step-02]({{ site.imgurl }}ArchLinux/Installation/create-vm-02.png){: .align-center }
+![Step-01]({{ site.url}}{{ site.imgurl }}ArchLinux/Installation/create-vm-01.png){: .align-center }
 
-![Step-03]({{ site.imgurl }}ArchLinux/Installation/create-vm-03.png){: .align-center }
+-	Linux를 선택하고 버전은 `Other Linux 3.x kernel 64-bit`를 선택한다.
 
-![Step-04]({{ site.imgurl }}ArchLinux/Installation/create-vm-04.png){: .align-center }
+![Step-02]({{ site.url}}{{ site.imgurl }}ArchLinux/Installation/create-vm-02.png){: .align-center }
 
-원하는 하드웨어 설정을 한다.
-![Step-05]({{ site.imgurl }}ArchLinux/Installation/create-vm-05.png){: .align-center }
+-	이름을 설정하고 저장소를 설정해준다.
+
+![Step-03]({{ site.url}}{{ site.imgurl }}ArchLinux/Installation/create-vm-03.png){: .align-center }
+
+-	사용할 하드 용량을 설정해준다.
+
+![Step-04]({{ site.url}}{{ site.imgurl }}ArchLinux/Installation/create-vm-04.png){: .align-center }
+
+-	하드웨어를 설정해준다.
+
+![Step-05]({{ site.url}}{{ site.imgurl }}ArchLinux/Installation/create-vm-05.png){: .align-center }
 
 ## Partition 설정
+
+가상 머신을 켜고 파티션 설정부터 해준다.
 
 ```bash
 // 파티션 정보 확인

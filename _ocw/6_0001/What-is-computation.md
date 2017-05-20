@@ -5,11 +5,9 @@ last_modified_at: 2017-05-17 08:25:20
 mathjax: true
 sidebar:
  nav: "ocw_6_0001"
-header:
- video:
-  id: ytpJdnlu9ug
-  provider: youtube
 ---
+
+{% include video id="ytpJdnlu9ug" provider="youtube" %}
 
 ## Lecture Materials
 
@@ -77,7 +75,7 @@ By controlling the flow of instructions, decide when to finish the task to get t
 
 ## Basic machine architecture
 
-{% include figure image_path="/assets/images/OCW/6_0001/bma.png" alt="Basic machine architecture" %}
+![Basic machine architecture]({{ site.url }}{{ site.imgurl }}OCW/6_0001/bma.png){: .align-center}
 
 <a>Memory</a> contains data & sequence of <ins>primitive</ins> instructions.
 
@@ -127,7 +125,7 @@ print(3 + 2)
 
 ## Changing bindings
 
-{% include figure image_path="/assets/images/OCW/6_0001/binding.png" alt="Changing binding process" %}
+![Changing bindings]({{ site.url }}{{ site.imgurl }}OCW/6_0001/binding.png){: .align-center}
 
 ~~~python
 pi = 3.14
