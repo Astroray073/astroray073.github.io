@@ -7,6 +7,8 @@ header:
  video:
   id: m28veKzJcQ4
   provider: youtube
+tags:
+ - Linux
 ---
 
 {% include toc %}
