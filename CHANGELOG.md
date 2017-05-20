@@ -1,5 +1,10 @@
 ## Unreleased
 
+### Enhancements
+
+- Add Greek localized UI text strings. [#996](https://github.com/mmistakes/minimal-mistakes/pull/996)
+- Add Bitbucket social icon color. [#1009](https://github.com/mmistakes/minimal-mistakes/pull/1009)
+
 ### Bug Fixes
 
 - Toggle close button on `mouseleave`. [#975](https://github.com/mmistakes/minimal-mistakes/issues/975)
