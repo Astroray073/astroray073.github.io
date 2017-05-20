@@ -13,6 +13,7 @@ name                     : &name "Astroray"
 description              : "The storage of various IT technology informations."
 url                      : https://astroray073.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
+imgurl                   : /assets/images/
 repository               : astroray073/astroray073.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
