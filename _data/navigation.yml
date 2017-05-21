@@ -36,7 +36,10 @@ ocw_6_0001:
       - title: "[L1] What is computation?"
         url: /ocw/6_0001/What-is-computation/
   - title: "Problem sets"
-
+    children:
+      - title: "Problem Set 0"
+        url: /ocw/6_0001/Problem-set-0/
+        
 # MIT OCW 6.042J
 ocw_6_042J:
   - title: "Mathematics for Computer Science"

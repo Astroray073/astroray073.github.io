@@ -241,6 +241,12 @@ collections:
     
 # Defaults
 defaults:
+  # _drafts
+  - scope:
+      path: ""
+      type: drafts
+    values:
+      layout: single
   # _posts
   - scope:
       path: ""
