@@ -82,10 +82,94 @@ Enum.TryParse<EColor>("Red", out EColor color); // 파싱
 {: .notice--info }
 **Note:** [MSDN - Enum class](https://msdn.microsoft.com/library/system.enum(v=vs.110).aspx)
 
+## 형변환
+
+지금까지 프로그래밍에서 변수로 사용할 수 있는 다양한 형식에 대해서 알아보았다. 프로그래밍에서 데이터는 단순한 바이트덩어리이고 어떤 타입인가에 따라서 그 바이트 덩어리를 해석하는 방법이 나뉜다. 가령 0x00의 헥사데시멀(HexaDecimal) 자료가 있다고 한다면 이를 논리값으로 표현하면 거짓일 것이고 정수형으로 표현한다면 0일 것이다. 실제로 이러한 형변환이 가능하지는 않다.
+
+데이터를 담는 그릇을 형식(Type)이라 하고 어떤 형식을 다른 형식에게 값을 전달해주는 과정을 형변환(Cast)이라 한다. 간단하게 실수형 데이터를 정수형으로 표현하는 방법에 대해서 알아보자.
+
+```csharp
+float f = 3.2f;
+int a;
+
+a = (int)f; // a = 3
+f = a; // f = 3
+```
+
+3번 줄에서 괄호와 함께 형변환을 해줄 타입을 지정해주는 것을 `명시적 형변환(Explicit cast)`이라고 한다. 이와는 다르게 4번줄과 같이 타입의 지정없이 형변환이 일어나는 것을 `암시적 형변환(Implicit cast)`이라고 한다.
+
+### as 와 is 키워드
+
+안전한 형변환을 위해서 사용할 수 있는 키워드이다.
+
+```csharp
+using System;
+
+namespace SimpleTest
+{
+    class Program
+    {
+        public class Parent { }
+        public class Child : Parent { }
+        
+        static void Main(string[] args)
+        {
+            var parent = new Parent();
+            var child = new Child();
+
+            if (parent is Parent)
+            {
+                Console.WriteLine("parent is Parent");
+            }
+
+            if (parent is Child)
+            {
+                Console.WriteLine("parent is Child");
+            }
+
+            if (child is Parent)
+            {
+                Console.WriteLine("child is Parent");
+            }
+
+            if (child is Child)
+            {
+                Console.WriteLine("child is Child");
+            }
+        }
+    }
+}
+
+// output
+parent is Parent
+child is Parent
+child is Child
+```
+
+`is` 키워드는 해당 객체가 해당 형식으로 형변환이 가능한지 여부를 알려준다.
+
+
+## Boxing && Unboxing
+
+MSDN에 따르면,
+
+>Boxing은 값 형식을 참조 형식으로 변환하는 프로세스를 가리킵니다. 변수를 boxing하면 힙의 새 복사본을 가리키는 참조 변수가 만들어집니다. 참조 변수는 개체이므로 모든 개체가 상속하는 모든 메서드(예: ToString())를 사용할 수 있습니다.
+
+라고 설명하고 있다. 값형식을 참조 형식으로 변환하는 프로세스란 `object`형 포인터로 새 복사본을 가르킨다는 의미이다.
+
+## ref 와 out 키워드
+
+Boxing 과 Unboxing의 수행과정에서 Heap으로의 할당이 발생한다. 이는 명백한 오버헤드(Overhead)이고 성능에 영향을 끼칠 우려가 있다. 메서드에 값인자를 전달할 때 ref 와 out 키워드를 활용할 수 있다. 이는 C에서 함수 인자로 포인터를 직접 전달하는 것과 같은 의미를 지닌다. 따라서 Boxing & Unboxing으로 인한 불필요한 할당을 줄일 수 있게 해준다. ref 와 out 키워드의 경우 비슷하지만 out 키워드는 초기화가 안된 인자를 받을 수 있다는 점이 다르다.
+
+```csharp
+int i;
+if (int.TryParse("3", out i))
+{
+     Console.WriteLine(i); // i = 3
+}
+```
+
 
 ## References
 
 -	[MSDN - 값형식과 참조형식](https://msdn.microsoft.com/ko-kr/library/4d43ts61(v=vs.90).aspx)
-
-{: .notice--info }
-**Note:** 본 포스트는 완성되지 않은 작업중인 포스트입니다.
