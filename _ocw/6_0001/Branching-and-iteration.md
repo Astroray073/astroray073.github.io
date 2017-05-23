@@ -53,7 +53,7 @@ The indentation is important!
 ```python
 if <condition>:
 	<expression>
-elseif: <condition>:
+elif <condition>:
 	<expression>
 else:
 	<expression>
