@@ -1,5 +1,5 @@
 ---
-title: "What is Computation?"
+title: "1\\. What is Computation?"
 excerpt: "The computer is a machine to help people to calculate something. A Computer can calculate and memorize a lot of things beyond the human ability."
 last_modified_at: 2017-05-17 08:25:20
 mathjax: true

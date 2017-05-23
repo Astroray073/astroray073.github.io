@@ -33,8 +33,10 @@ ocw_6_0001:
         url: /ocw/6_0001/About-this-course/
   - title: "Lectures"
     children:
-      - title: "[L1] What is computation?"
+      - title: "1. What is computation?"
         url: /ocw/6_0001/What-is-computation/
+      - title: "2. Branching and Iteration"
+        url: /ocw/6_0001/Branching-and-iteration/
   - title: "Problem sets"
     children:
       - title: "Problem Set 0"
