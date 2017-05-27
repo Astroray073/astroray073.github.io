@@ -114,7 +114,7 @@ $$
 
 $$
 	\begin{align*}
-		P \; \mathrm{\text{IMPLIES}} \; Q, \quad Q \; \mathrm{\text{IMPLIES}} \; R \over{P \; \mathrm{\text{IMPLIES}} \; P}
+		P \; \mathrm{\text{IMPLIES}} \; Q, \quad Q \; \mathrm{\text{IMPLIES}} \; R \over{P \; \mathrm{\text{IMPLIES}} \; R}
 	\end{align*}
 $$
 
@@ -207,7 +207,7 @@ Since $m^2$ and $n^2$ are integers, $r$ is also rational.
 {: .notice--info}
 **Note:** "If and Only IF" can be expessed as IFF
 
-### Prove Each STatement Implies the Other
+### Prove Each Statement Implies the Other
 
 The statement “P IFF Q” is equivalent to the two statements “P IMPLIES Q” and
 “Q IMPLIES P.” So you can prove an “iff” by proving two implications:
