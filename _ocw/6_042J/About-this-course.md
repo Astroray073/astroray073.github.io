@@ -8,6 +8,8 @@ sidebar:
 
 This course summary base on [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm).
 
+{% include video id="wIq4CssPoO0" provider="youtube" %}
+
 ## Contents
 
 - Lectures		: 35 sessions (1.5 hr per session)

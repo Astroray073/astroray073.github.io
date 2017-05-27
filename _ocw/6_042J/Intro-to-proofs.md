@@ -1,17 +1,21 @@
 ---
 title: "1.1 Intro to Proofs"
-excerpt: "Working..."
-last_modified_at: 2017-05-17 08:25:20
+excerpt: "Introduction to Prrofs"
+last_modified_at: 2017-05-27 16:53:36
 mathjax: true
 sidebar:
  nav: "ocw_6_042J"
 ---
 
-{% include video id="wIq4CssPoO0" provider="youtube" %}
+{% include video id="GyFVgJZ0hIs" provider="youtube" %}
+
+{% include video id="wfr4XbR5VP8" provider="youtube" %}
 
 ## Lecture Materials
 
-[Lecture Note](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/readings/MIT6_042JS15_Session1.pdf)
+-	[Lecture Slide](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/lecture-slides/MIT6_042JS16_Introduction.pdf)
+-	[Quiz](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/proofs/tp1-1/vertical-96ac16077819/)
+-	[Lecture Note](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/readings/MIT6_042JS15_Session1.pdf)
 
 {% include toc %}
 
@@ -83,8 +87,7 @@ question.
 
 -	Important true propositions are called `theorems`.
 -	A `lemma` is a preliminary proposition useful for proving later propositions.
--	A `corollary` is a proposition that follows in just a few logical steps from a
-theorem.
+-	A `corollary` is a proposition that follows in just a few logical steps from a theorem.
 
 ## 4. Our Axioms
 
@@ -92,7 +95,7 @@ theorem.
 
 ### 4.1. Logical Deductions
 
->Logicla deductions, or `inference rulse`, are used to proce new propositions using previously proved ones. A fundamental inference ruls is `modus ponens`. This rule says that a proof of $P$ together with a proof that $P$ IMPLIES $Q$ is a proof of $Q$.
+>Logicla deductions, or `inference rules`, are used to proce new propositions using previously proved ones. A fundamental inference ruls is `modus ponens`. This rule says that a proof of $P$ together with a proof that $P$ IMPLIES $Q$ is a proof of $Q$.
 
 **The basic rule:**
 
@@ -102,7 +105,7 @@ $$
 	\end{align*}
 $$
 
-**`modus ponens`:**
+**`Modus Ponens`:**
 
 $$
 	\begin{align*}
@@ -110,7 +113,7 @@ $$
 	\end{align*}
 $$
 
-**Other inference rules:**
+**Sequence:**
 
 $$
 	\begin{align*}
@@ -118,17 +121,11 @@ $$
 	\end{align*}
 $$
 
+**Contrapositive:**
+
 $$
 	\begin{align*}
 		\mathrm{NOT} (P) \; \mathrm{\text{IMPLIES}} \; \mathrm{NOT} (Q) \over{Q \; \mathrm{\text{IMPLIES}} \; P}
-	\end{align*}
-$$
-
-**Non-Rule:**
-
-$$
-	\begin{align*}
-		\mathrm{NOT} (P) \; \mathrm{\text{IMPLIES}} \; \mathrm{NOT} (Q) \over{P \; \mathrm{\text{IMPLIES}} \; Q}
 	\end{align*}
 $$
 

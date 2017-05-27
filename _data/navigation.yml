@@ -52,4 +52,6 @@ ocw_6_042J:
     children:
       - title: "1.1 Intro to Proofs"
         url: /ocw/6_042J/Intro-to-proofs/
+      - title: "1.2 Proof Methods"
+        url: /ocw/6_042J/Proof-methods/
   - title: "Problem sets"
