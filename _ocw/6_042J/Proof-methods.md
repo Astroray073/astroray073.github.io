@@ -86,7 +86,7 @@ They omit the same output because `or` operator check expressions in order.
 
 **Case 2, $x \leq 0$:**
 
-Both failed first expression, $x \gt 0$, but omit the same output because $x \leq 0$ is always true in the case.
+Both failed first expression, $x \gt 0$, but omit the same output because $x \leq 0$ is always true in this case.
 
 **QED.** The claim therefore holds in both cases.
 
