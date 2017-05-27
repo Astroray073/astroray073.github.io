@@ -149,7 +149,7 @@ child is Child
 `is` 키워드는 해당 객체가 해당 형식으로 형변환이 가능한지 여부를 알려준다.
 
 
-## Boxing && Unboxing
+## Boxing & Unboxing
 
 MSDN에 따르면,
 
