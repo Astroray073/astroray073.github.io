@@ -30,28 +30,32 @@ ocw_6_0001:
   - title: "Introduction to computer science and programming in python"
     children:
       - title: "About this course"
-        url: /ocw/6_0001/About-this-course/
+        url: /ocw/6_0001/0-About-this-course/
   - title: "Lectures"
     children:
       - title: "1. What is computation?"
-        url: /ocw/6_0001/What-is-computation/
+        url: /ocw/6_0001/1-What-is-computation/
       - title: "2. Branching and Iteration"
-        url: /ocw/6_0001/Branching-and-iteration/
+        url: /ocw/6_0001/2-Branching-and-iteration/
   - title: "Problem sets"
     children:
       - title: "Problem Set 0"
-        url: /ocw/6_0001/Problem-set-0/
+        url: /ocw/6_0001/PS-0/
         
 # MIT OCW 6.042J
 ocw_6_042J:
   - title: "Mathematics for Computer Science"
     children:
       - title: "About this course"
-        url: /ocw/6_042J/About-this-course/
+        url: /ocw/6_042J/0-About-this-course/
   - title: "UNIT 1: PROOFS"
     children:
       - title: "1.1 Intro to Proofs"
-        url: /ocw/6_042J/Intro-to-proofs/
+        url: /ocw/6_042J/1-1-Intro-to-proofs/
       - title: "1.2 Proof Methods"
-        url: /ocw/6_042J/Proof-methods/
+        url: /ocw/6_042J/1-2-Proof-methods/
+      - title: "1.3 Well Ordering Principle"
+        url: /ocw/6_042J/1-3-Well-ordering-principle/
+      - title: "1.4 Logic & Propositions"
+        url: /ocw/6_042J/1-4-Logic-and-propositions/
   - title: "Problem sets"

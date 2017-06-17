@@ -14,10 +14,10 @@ author_profile: true
 	</header>
 	<ul class="toc__menu">
 		<li>
-			<a href="/ocw/6_0001/About-this-course/" rel="permalink">6.0001 Introduction to computer science and programming in python</a>
+			<a href="/ocw/6_0001/0-About-this-course/" rel="permalink">6.0001 Introduction to computer science and programming in python</a>
 		</li>
 		<li>
-			<a href="/ocw/6_042J/About-this-course/" rel="permalink">6.042J Mathematics for Computer Science</a>
+			<a href="/ocw/6_042J/0-About-this-course/" rel="permalink">6.042J Mathematics for Computer Science</a>
 		</li>
 	</ul>
 </nav>
