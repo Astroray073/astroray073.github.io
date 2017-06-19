@@ -5,7 +5,7 @@ main:
   - title: "OCW"
     url: /ocw/
   - title: "C#"
-    url: /csharp/01-Introduction/
+    url: /csharp/00-About-this-course/
   - title: "Tags"
     url: /tags/
 
@@ -20,10 +20,14 @@ jekyll:
 csharp:
   - title: "C# 초급"
     children:
+      - title: "강의에 대하여"
+        url: /csharp/00-About-this-course/
       - title: "프로그래밍 개요"
         url: /csharp/01-Introduction/
       - title: "필드(Field)"
         url: /csharp/02-Field/
+      - title: "흐름제어(Flow control)"
+        url: /csharp/03-Flow-control/
 
 # MIT OCW 6.0001
 ocw_6_0001:

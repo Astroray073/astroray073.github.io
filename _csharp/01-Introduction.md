@@ -2,6 +2,7 @@
 title: "개요"
 excerpt: "C# 프로그래밍에 있어 기초적인 부분에 대하여 다룹니다."
 last_modified_at: 2017-05-18 10:01:07
+mathjax: false
 ---
 
 {% include toc %}
