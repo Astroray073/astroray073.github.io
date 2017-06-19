@@ -1,7 +1,7 @@
 ---
 title: "흐름제어(Flow control)"
 excerpt: "프로그램의 흐름을 제어하는 방법에 대하여 알아봅니다."
-last_modified_at: 2017-05-18 10:52:34
+last_modified_at: 2017-06-20 07:53:50
 mathjax: true
 ---
 
@@ -47,7 +47,7 @@ namespace SimpleTest
 `args`에서 `a, b`를 받아 정수형으로 `파싱(Parsing)`하여 두 수의 크기를 비교하는 간단한 프로그램이다. `if (a > b)`의 부분을 조건문이라 한다. 조건문의 `()` 안에는 bool 형 값이 들어간다. `Command prompt`로 빌드된 프로그램을 실행해보자. 아마 프로젝트명으로 빌드된 exe(Executable) 파일이 해당 프로젝트 폴더의 `/bin/` 내에 `Debug` 혹은 `Release` 폴더 내에 파일이 생성되어 있을 것이다. `CMD`에 인자값으로 정수 2개를 넘겨주면서 프로그램을 실행해본다. 필자의 경우 프로젝트명을 SimpleTest로 했기에 SimpleTest.exe 파일이 생성되어 있다.
 
 {: .notice--info}
-**Ctrl + Shift + B :** 프로젝틑 빌드 단축키.
+**Ctrl + Shift + B :** 프로젝트 빌드 단축키.
 
 ```bash
 ~Your Directory>SimpleTest.exe 10 99
