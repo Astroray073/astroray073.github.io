@@ -1,5 +1,5 @@
 ---
-title: "2\\. Branching and Iteration"
+title: "2 Branching and Iteration"
 excerpt: ""
 last_modified_at: 2017-05-23 17:48:31
 mathjax: true

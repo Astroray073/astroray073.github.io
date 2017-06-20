@@ -45,6 +45,8 @@ ocw_6_0001:
     children:
       - title: "Problem Set 0"
         url: /ocw/6_0001/PS-0/
+      - title: "Problem Set 1"
+        url: /ocw/6_0001/PS-1/
         
 # MIT OCW 6.042J
 ocw_6_042J:
