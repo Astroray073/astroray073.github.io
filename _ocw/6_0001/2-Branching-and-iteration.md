@@ -1,6 +1,6 @@
 ---
 title: "2 Branching and Iteration"
-excerpt: ""
+excerpt: "Learning about flow control"
 last_modified_at: 2017-05-23 17:48:31
 mathjax: true
 sidebar:
@@ -11,7 +11,8 @@ sidebar:
 
 ## Lecture Materials
 
-[Lecture Note](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-slides-code/MIT6_0001F16_Lec2.pdf)
+-	[Lecture Note](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-slides-code/MIT6_0001F16_Lec2.pdf)
+-	[Quiz](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/in-class-questions-and-video-solutions/lecture-2/)
 
 {% include toc %}
 

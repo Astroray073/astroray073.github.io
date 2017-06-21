@@ -41,6 +41,8 @@ ocw_6_0001:
         url: /ocw/6_0001/1-What-is-computation/
       - title: "2. Branching and Iteration"
         url: /ocw/6_0001/2-Branching-and-iteration/
+      - title: "3. String Manipulation, Guess and Check, Approximation, Bisection"
+        url: /ocw/6_0001/3-String-manipulation-guess-and-check/
   - title: "Problem sets"
     children:
       - title: "Problem Set 0"
