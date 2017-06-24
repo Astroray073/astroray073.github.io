@@ -1,7 +1,7 @@
 ---
 title: "필드(Field)"
 excerpt: "필드에 대해서 알아봅니다."
-last_modified_at: 2017-05-18 10:52:34
+last_modified_at: 2017-06-24 11:45:40
 mathjax: true
 ---
 
@@ -169,6 +169,28 @@ if (int.TryParse("3", out i))
 }
 ```
 
+## 연산자(operator)
+
+연산자란 특정 명령을 하는 기호를 말합니다. 
+
+|연산자|내용|
+|:---:|:---:|
+|RHS = LHS| RHS 에 LHS를 할당합니다.|
+|RHS + LHS| RHS에 LHS를 더한 결과를 반환합니다.|
+|RHS - LHS| RHS에서 LHS를 뺀 결과를 반환합니다.|
+|RHS * LHS| RHS에 LHS를 곱한 결과를 반환합니다.|
+|RHS / LHS| RHS를 LHS로 나눈 몫을 반환합니다.|
+|RHS % LHS| RHS에서 LHS로 나눈 나머지를 반환합니다.|
+|RHS += LHS| RHS에서 LHS를 더한 결과를 RHS에 할당합니다.|
+|RHS -= LHS| RHS에서 LHS를 뺀 결과를 RHS에 할당합니다.|
+|RHS *= LHS| RHS에서 LHS를 곱한 결과를 RHS에 할당합니다.|
+|RHS /= LHS| RHS에서 LHS를 나눈 몫을 RHS에 할당합니다.|
+|RHS %= LHS| RHS에서 LHS를 나눈 나머지를 RHS에 할당합니다.|
+|RHS++| RHS를 1만큼 증가시킵니다.|
+|RHS--| RHS를 1만큼 감소시킵니다.|
+|([Type])RHS| RHS를 [Type]으로 형변환합니다.|
+
+보편적인 수학적 기호와 별반 차이가 없지만 위의 연산자들은 숫자형에 국한되어 있지 않고 새로운 기능을 추가할 수도 있습니다. 이러한 것을 **연산자 오버로딩(Operator Overloading)**이라 합니다.
 
 ## References
 

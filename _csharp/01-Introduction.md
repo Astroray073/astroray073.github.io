@@ -1,7 +1,7 @@
 ---
 title: "개요"
 excerpt: "C# 프로그래밍에 있어 기초적인 부분에 대하여 다룹니다."
-last_modified_at: 2017-05-18 10:01:07
+last_modified_at: 2017-06-24 11:46:33
 mathjax: false
 ---
 
@@ -103,6 +103,10 @@ IDE로 [Visual Studio 2017 Community](https://www.visualstudio.com/ko/thank-you-
 **Stack 영역**
 
 `콜스택(Call stack)`이라고도 부르는 곳이다. 메서드의 지역변수, 매개변수, 리턴값이 임시로 저장되고 해제된다. 컴파일 시에 그 Stack 영역의 크기가 제한되어 있고 VS 기본값은 1Mb 이다.
+
+## Naming Convention
+
+`Naming Convetion`이란 코드 작성시 일정한 규칙을 적용하여 협업시 서로의 작업물을 알아보기 쉽게 하기위한 명명법을 말합니다. 우리말로는 `코드 규준`이라고 합니다. 대표적을 `헝가리언 노테이션`이 있습니다. C++에서 자주 쓰이는 코드 규준입니다. 개인적으로 따르고 있는 코드 규준은 [C# Coding Standards by Lance](https://aspblogs.blob.core.windows.net/media/lhunt/Publications/CSharp%20Coding%20Standards.pdf) 입니다. 해당 코드 규준을 맹목적으로 따를 필요는 없으나 처음 시작하는 분들이라면 일관성있는 코드 작성에 도움일 될 내용이니 최대한 이에 맞춰서 코드를 작성하는 습관을 들이는게 좋습니다. 후에 회사에 들어가거나 협업을 할 일이 생기면 해당 조직에 맞춰 자신의 코딩 스타일을 바꿔야합니다. 언어에 따라서도 다르고 조직별로도 다 다릅니다. 중요한 점은 `협업`이라는 키워드입니다. 자신이 코드를 작성한다고 해서 그 코드를 계속 자신이 유지보수한다는 보장도 없고 효율적인 협업을 위한 장치이므로 각 조직 내의 코드규즌을 따르는 편이 좋습니다.
 
 ## Comments
 
