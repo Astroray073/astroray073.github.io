@@ -1,6 +1,6 @@
 ---
 title: "3 String Manipulation, Guess and Check, Approximation, Bisection"
-excerpt: ""
+excerpt: "Learning about vairous techniques to solve problems"
 last_modified_at: 2017-06-21 16:35:11
 mathjax: true
 sidebar:
