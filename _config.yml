@@ -238,7 +238,10 @@ collections:
   csharp:
     output: true
     permalink: /csharp/:path/
-    
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
 # Defaults
 defaults:
   # _drafts
@@ -258,6 +261,16 @@ defaults:
       comments: true
       share: true
       related: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
   # _pages
   - scope:
       path: ""
