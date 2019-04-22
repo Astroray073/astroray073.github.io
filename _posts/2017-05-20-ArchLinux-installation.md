@@ -4,7 +4,7 @@ title: "ArchLinux 설치"
 excerpt: "ArchLinux 배포판을 가상머신 도구인 VMware를 사용하여 설치하는 법에 대해서 알아봅니다."
 last_modifieat_at: 2017-05-21 09:19:50
 
-tags:
+categories:
  - Linux
 ---
 

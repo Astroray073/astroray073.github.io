@@ -2,8 +2,8 @@
 title: "Spyder 설치"
 excerpt: "ArchLinux에서 Python IDE인 Spyder를 설치하는 방법입니다."
 last_modified_at: 2017-05-21 16:08:03
-tags:
- - Linux
+
+categories:
  - Python
 ---
 
