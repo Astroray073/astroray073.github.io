@@ -1,15 +1,14 @@
 ---
-title: Jekyll 블로그 만들기 (Windows)
-excerpt: "웹상의 여러 글들을 참고하여 이번에 Jekyll 블로그를 개설하면서 겪은 시행착오를 바탕으로 Jekyll로 블로그를 만드는 방법에 대하여 설명합니다."
-last_modified_at: 2017-05-16 00:51:36
+title				: Jekyll 블로그 만들기 (Windows)
+excerpt				: "웹상의 여러 글들을 참고하여 이번에 Jekyll 블로그를 개설하면서 겪은 시행착오를 바탕으로 Jekyll로 블로그를 만드는 방법에 대하여 설명합니다."
+last_modified_at	: 2017-05-16 00:51:36
+
+toc 				: true
+toc_sticky			: true
 
 categories:
  - Jekyll
 ---
-
-{% include nav_list nav="jekyll" %}
-
-{% include toc %}
 
 앞으로 블로그에 공부한 내용들을 정리를 해볼까하여 블로그에 대해 알아보게 되었습니다.
 저의 경우 콘텐츠에 주로 수학이나 코드를 수록할 일이 많기때문에 다음과 같은 조건을 가지고 알아보았습니다.

@@ -15,7 +15,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   The storage of various IT technology informations.
 url                       : https://astroray073.github.io
 baseurl                   : 
-imgurl                    : /assets/images
+imgurl                    : /assets/images/
 # repository                : astroray073/astroray073.github.io
 github_username           : astroray073
 search                    : true

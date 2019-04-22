@@ -1,13 +1,14 @@
 ---
-title: "C# 7.0 새로운 기능"
-excerpt: "C# 7.0의 새로운 기능들을 소개합니다."
-last_modified_at: 2017-05-27 19:42:24
+title               : "C# 7.0 새로운 기능"
+excerpt             : "C# 7.0의 새로운 기능들을 소개합니다."
+last_modified_at    : 2017-05-27 19:42:24
+
+toc 				: true
+toc_sticky			: true
 
 categories:
  - "C#"
 ---
-
-{% include toc %}
 
 Visual Studio 2017 릴리스와 함께 C# 7.0 버전이 발표되었습니다. [MSDN 블로그](https://blogs.msdn.microsoft.com/dotnet/2017/03/09/new-features-in-c-7-0/) 내용을 바탕으로 새로운 기능들에 대해서 소개합니다.
 

@@ -11,7 +11,7 @@ previewImage        : /assets/images/portfolio/slimekingdom/main.png
 image_location      : /assets/images/portfolio/slimekingdom
 ---
 
-![main]({{ site.url }}{{ page.image_location }}/main.png)
+![preview]({{ page.previewImage }})
 
 ## Introduction
 
