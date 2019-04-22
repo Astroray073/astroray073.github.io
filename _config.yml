@@ -110,7 +110,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: posts
     values:
       layout          : portfolio-single
       author_profile  : false
