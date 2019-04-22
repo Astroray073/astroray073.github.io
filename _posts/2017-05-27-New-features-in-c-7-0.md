@@ -2,7 +2,8 @@
 title: "C# 7.0 새로운 기능"
 excerpt: "C# 7.0의 새로운 기능들을 소개합니다."
 last_modified_at: 2017-05-27 19:42:24
-tags:
+
+categories:
  - "C#"
 ---
 

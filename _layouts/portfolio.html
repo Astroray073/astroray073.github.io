@@ -1,0 +1,15 @@
+---
+layout: archive
+---
+
+<!-- What is this? -->
+{{ content }}
+
+{% assign portfolioByDate = site.portfolio | sort: 'endDate' %}
+{% for post in portfolioByDate %}
+  <section id = "{{ post.title }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ post.startDate }} - {{ post.endDate}} </h2>
+    {% include portfolio-archive-single.html type=page.entries_layout %}
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}
