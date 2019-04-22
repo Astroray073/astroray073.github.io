@@ -24,7 +24,6 @@ locale                    : "en-US"
 words_per_minute          : 200
 
 # Theme
-remote_theme              : mmistakes/minimal-mistakes
 minimal_mistakes_skin     : dark
 
 # Profile
