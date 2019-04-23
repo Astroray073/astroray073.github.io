@@ -24,7 +24,7 @@ locale                    : "en-US"
 words_per_minute          : 200
 
 # Theme
-minimal_mistakes_skin     : dark
+minimal_mistakes_skin     : default
 
 # Profile
 author:
@@ -46,7 +46,7 @@ footer:
 
 
 # SEO
-# google_site_verification  : "googled6eb1103641cc663"
+google_site_verification  : "googled6eb1103641cc663"
 
 # Build settings
 markdown                  : kramdown
