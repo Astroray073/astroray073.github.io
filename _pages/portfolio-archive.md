@@ -5,8 +5,7 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-Hello, My name is Inyeol Choi.
-I'm passionate programmer making game related tools, appliations and game itself.
+Hello, I'm a programmer making game related tools, appliations and game itself.
 
 # Backgrounds 
 
@@ -20,17 +19,17 @@ So I am here to dive in the field.
 
 # Skills 
 
-Programming languages/Markups | Framework/Engines | Tools | Fields
-C++ | Unity | Git | Gameplay
-C#  | Unreal 4 | Spine | Tool development
-XML | WPF | CMake | Engine
-Json | | Trello | UI
-Markdown | | SourceTree | AI
+| Programming languages/Markups | Framework/Engines | Tools             | Fields                |
+|-------------------------------|-------------------|-------------------|----------             |
+| C++                           | Unity             | Git               | Gameplay              |
+| C#                            | Unreal 4          | Spine             | Tool development      |
+| XML                           | WPF               | CMake             | Engine                |
+| Json                          | NUnit             | Trello            | UI                    |
+| Markdown                      |                   | SourceTree        | AI                    |
 
-# Languages
+# Foreign Languages
 
-Korean | Native
-English | Intermediate
-Japaneese | JLPT-N2
+| English       | Intermediate  |
+| Japaneese     | JLPT-N2       |
 
 # Projects
