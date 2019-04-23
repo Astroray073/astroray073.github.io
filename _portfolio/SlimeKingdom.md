@@ -26,13 +26,10 @@ Unique points of this game are...
 
 ### Team members & responsibilites
 
-Disclaimer : My main role was programmer but as we are small team, I needed to take other responsibilites.
-{: .notice--info}
-
-- No. of people : 2 game designers, 2 programmers, 3 graphic designers.
+- Members : 2 game designers, 2 programmers, 3 graphic designers.
 - Duration : about 6 months.
 
-Role : *Main programmer*, *Project manager*, and *Animator*
+Role : Main programmer and Animator
 
 ### Development environment
 
