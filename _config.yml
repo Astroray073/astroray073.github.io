@@ -112,6 +112,7 @@ exclude:
   - README
   - tmp
   - /archived-posts
+  - /template
 keep_files:
   - .git
   - .svn
