@@ -24,7 +24,8 @@ locale                    : "en-US"
 words_per_minute          : 200
 
 # Theme
-minimal_mistakes_skin     : default
+theme                     : minimal-mistakes-jekyll
+minimal_mistakes_skin     : default # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Profile
 author:
@@ -35,7 +36,7 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://astroray073.github.io/"
+      url: "https://github.com/astroray073"
 
 # Footer
 footer:
