@@ -5,7 +5,7 @@ endDate             : 2010-06-08
 lastModifiedAt      : 2016-03-09T16:20:02-05:00
 excerpt             : "Casual tower defence game development"
 header:
-    overlay_color   : #5f5f5f
+    overlay_color   : "#5f5f5f"
 previewImage        : /assets/images/portfolio/slimekingdom/main.png
 
 image_location      : /assets/images/portfolio/slimekingdom
