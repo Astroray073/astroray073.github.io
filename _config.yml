@@ -24,7 +24,8 @@ locale                    : "en-US"
 words_per_minute          : 200
 
 # Theme
-theme                     : minimal-mistakes-jekyll
+remote_theme              : mmistakes/minimal-mistakes
+# theme                     : minimal-mistakes-jekyll
 minimal_mistakes_skin     : default # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Profile
@@ -68,9 +69,9 @@ kramdown:
   enable_coderay: false
 
 # Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+#sass:
+#  sass_dir: _sass
+#  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Outputting
 permalink                 : /:categories/:title/
@@ -86,34 +87,20 @@ comments:
 
 # Reading Files
 include:
-  - .htaccess
+  - _data
+  - _includes
   - _pages
+  - _layouts
+  - _portfolio
+  - _posts
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
+  - .gitignore
+  - _site
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
   - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
   - README
-  - tmp
-  - /archived-posts
-  - /template
+  - template
+  - archived-posts
 keep_files:
   - .git
   - .svn
@@ -130,13 +117,13 @@ plugins:
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+# whitelist:
+#   - jekyll-paginate
+#   - jekyll-sitemap
+#   - jekyll-gist
+#   - jekyll-feed
+#   - jemoji
+#   - jekyll-include-cache
 
 # Archives
 #  Type
