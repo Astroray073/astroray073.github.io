@@ -1,5 +1,5 @@
 ---
-title				: 프로젝트 개요
+title				: Game engine dev - 1. Introduction
 excerpt				: "Setup the project for a game engine"
 last_modified_at	: 2019-04-28
 
