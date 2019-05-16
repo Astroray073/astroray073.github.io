@@ -11,7 +11,7 @@ categories:
 ---
 
 {: .notice--info}
-**NOTICE:** I'm not professional developer. Thus content may be inaccurate.
+**NOTICE:** I'm junior developer. Thus content may be inaccurate.
 
 ## Motivation
 
@@ -94,7 +94,7 @@ The interface will call platform dependent function or common c library function
 ### Core systems
 
 Core systems is collection of general purpose componenets to build development environment such as memory management, math, containers, etc.
-We gonna make most of this part  by ourself.
+We gonna make `most of this part  by ourself.
 
 ### Engine
 
@@ -128,6 +128,7 @@ We briefly look around the architecture of game engine. Now it is the time to se
 **Development environment**
 
 - OS                    : Windows 10, Arch linux
+- CPU Architecture      : x64, ARM64(Optional)
 - Development process   : Test driven development
 - Source Control        : Git (hosted by Github)
 - Unit Test Framework   : Catch2
