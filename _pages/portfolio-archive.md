@@ -23,8 +23,8 @@ So I am here to dive in the field.
 |-------------------------------|-------------------|-------------------|----------             |
 | C++                           | Unity             | Git               | Gameplay              |
 | C#                            | Unreal 4          | Spine             | Tool development      |
-| XML                           | WPF               | CMake             | Engine                |
-| Json                          | NUnit             | Trello            | UI                    |
+| XML                           |                   | CMake             | Engine                |
+| Json                          |                   | Trello            | UI                    |
 | Markdown                      |                   | SourceTree        | AI                    |
 
 # Foreign Languages
