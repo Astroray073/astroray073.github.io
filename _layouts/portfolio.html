@@ -5,7 +5,7 @@ layout: portfolio-archive
 <!-- What is this? -->
 {{ content }}
 
-{% assign portfolioByDate = site.portfolio | sort: 'endDate' %}
+{% assign portfolioByDate = site.portfolio | sort: 'startDate' %}
 {% for post in portfolioByDate %}
   <section id = "{{ post.title }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ post.startDate }} - {{ post.endDate}} </h2>

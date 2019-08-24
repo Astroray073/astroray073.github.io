@@ -5,10 +5,10 @@ endDate             : 2017-09
 lastModifiedAt      : 2016-03-09T16:20:02-05:00
 excerpt             : "Casual tower defence game development"
 header:
-    overlay_image   : /assets/images/portfolio/slimekingdom/main.png
-previewImage        : /assets/images/portfolio/slimekingdom/main.png
+    overlay_image   : /assets/images/portfolio/slimekingdoms/main.png
+previewImage        : /assets/images/portfolio/slimekingdoms/main.png
 
-image_location      : /assets/images/portfolio/slimekingdom
+image_location      : /assets/images/portfolio/slimekingdoms
 ---
 
 {% include video id="1RswM8XEVh6_HeCPqWpyF7EIGcv9qwCjY" provider="google-drive" %}
@@ -42,27 +42,24 @@ The list of tools was used in development.
 - Git hosted by [Bitbucket](https://bitbucket.org)
 - [NPOI](https://archive.codeplex.com/?p=npoi)
 
-## Implementation
+## Requirements
 
-There are number of features to develop through the project.
+- Our goal was making sample 5 stages.
+- To test game balance, external data layer was needed.
+- It makes game designers easier to manipulate game specific data.
+
+## Implementation
 
 ### Data control via Microsoft Excel
 
-**Requirements**
-
-1. To test game balance, external data layer was needed.
-2. It makes game designers easier to manipulate game specific data.
-
-**Implementation**
-
-<figure class="align-center" style = "padding: 2em 2em;">
+<figure class="align-center" style = "padding: 0em 2em;">
   <img src="{{ site.url }}{{ page.image_location }}/excel-flowchart.png" alt="">
   <figcaption>Data flow from Excel to Unity</figcaption>
 </figure> 
 
 When excel file is modified, the file will be parsed into ScriptableObject instance.
 
-<figure class="align-center" style = "padding: 2em 2em;">
+<figure class="align-center" style = "padding: 0em 2em;">
   <img src="{{ site.url }}{{ page.image_location }}/excel-parsing.png" alt="">
   <figcaption>Parsing result</figcaption>
 </figure> 
@@ -71,14 +68,15 @@ As figure shown above, it is capable to manage game data through Excel.
 
 ### Stage editor
 
-Stage editor is most important feature to generate the contents of this type of game.
-
-<figure class="align-center" style = "padding: 2em 2em;">
+<figure class="align-center" style = "padding: 0em 2em;">
   <img src="{{ site.url }}{{ page.image_location }}/editor.png" alt="">
   <figcaption>Stage Editor inside Unity</figcaption>
 </figure> 
 
-**Limitations & Improvements**
+Stage editor is most important feature to generate the contents of this type of game.
 
-Tile informations are stored in list. Because serializing Dictionary is tricky on Unity.
-Tile informations are accessed frequently. Dictionary(Hashtable) is better choice for the container.
+Capable of
+
+- Edit tiles of a stage
+- Setting wave information
+- Save and load a stage
