@@ -1,35 +1,44 @@
 ---
-title: "Fortfolio"
+title: "Portfolio"
 layout: portfolio
 permalink: /portfolio/
 author_profile: true
 ---
 
-Hello, I'm a programmer making game related tools, appliations and game itself.
+Hello, I'm a programmer making game related tools, applications and game itself.
 
-# Backgrounds 
+## Backgrounds 
 
 I graduated from Civil Engineering. When I was at school, there was interesting project leads me to IT engineering field.
 The project was to develop my own finite element analysis program to analyze bridge structures.
-Using Matlab, I made it with GUI to visualize elements' stress, strees type and displacement.
+Using MATLAB, I made it with GUI to visualize elements' stress, stress type and displacement.
 It was making things real experience.
-That was the time I felt good about programming making something alive.
+That was the time I felt good about programming which makes something alive.
 Game is the very field to make things alive. 
 So I am here to dive in the field.
 
-# Skills 
+## Skills 
 
-| Programming languages/Markups | Framework/Engines | Tools             | Fields                |
-|-------------------------------|-------------------|-------------------|----------             |
-| C++                           | Unity             | Git               | Gameplay              |
-| C#                            | Unreal 4          | Spine             | Tool development      |
-| XML                           |                   | CMake             | Engine                |
-| Json                          |                   | Trello            | UI                    |
-| Markdown                      |                   | SourceTree        | AI                    |
+**Unity3D**
 
-# Foreign Languages
+- Custom editor development.
+- UI programming.
+- Contents programming.
+- TCP networking.
+- Asynchronous programming.  
 
-| English       | Intermediate  |
-| Japaneese     | JLPT-N2       |
+**Unreal Engine 4**
 
-# Projects
+- Contents programming with Blueprint or C++ class.
+- Animation management.
+
+**Java**
+
+- [Simple android app development experience](https://github.com/Astroray073/Feth)
+
+## Foreign Languages
+
+- English : Intermediate
+- Japanese : JLPT-N2
+
+## Projects
